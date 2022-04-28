@@ -10,3 +10,15 @@
 .lens {
     width: 30px;
 }
+
+/* First Section */
+#first_section {
+    height: 675px;
+    background-image: url(img/jumbo-bg.png);
+    background-size: 100% 100%;
+}
+
+
+.container-fluid {
+    
+}
