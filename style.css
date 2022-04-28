@@ -1,0 +1,12 @@
+.sony_head {
+    background-color: black;
+    height: 50px;
+}
+
+.sony_head img {
+    height: 50%;
+}
+
+.lens {
+    width: 30px;
+}
