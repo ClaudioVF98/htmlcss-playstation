@@ -19,6 +19,33 @@
 }
 
 
-.container-fluid {
-    
+#first_section .col-lg-4, #first_section .col-lg-8 {
+    height: 675px;
+}
+
+
+.first_text {
+    padding: 0 0 200px 50px;
+}
+
+
+.first_text img {
+    width: 250px;
+}
+
+.first_text h1, .first_text p {
+    color: white;
+    margin: 20px 0;
+}
+
+.first_text h1 {
+    font-size: 50px;
+}
+
+.first_text p {
+    font-size: 15px;
+}
+
+#first_section button {
+    margin: 20px 0;
 }
