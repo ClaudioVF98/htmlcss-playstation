@@ -1,3 +1,7 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;   
+}
+
 .sony_head {
     background-color: black;
     height: 50px;
@@ -11,21 +15,38 @@
     width: 30px;
 }
 
+.mt-100-px {
+    margin-top: 100px;
+}
+
+
+.blue-text {
+    color: blue;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.font-size-20-px {
+    font-size: 20px;
+}
+
+.contain {
+    max-width: 100%;
+}
+
 /* First Section */
-#first_section {
-    height: 675px;
+#first_section{
     background-image: url(img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 
-#first_section .col-lg-4, #first_section .col-lg-8 {
-    height: 675px;
-}
-
-
-.first_text {
-    padding: 0 0 200px 50px;
+.margin_first_text {
+    padding: 0 0 100px 50px;
 }
 
 
@@ -35,7 +56,7 @@
 
 .first_text h1, .first_text p {
     color: white;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .first_text h1 {
@@ -47,5 +68,160 @@
 }
 
 #first_section button {
-    margin: 20px 0;
+    margin: 10px 0;
 }
+
+/* Second Section */
+#second_section .col-lg-2 img {
+    width: 100%;
+    border-radius: 13px;
+}
+
+.first_list_img {
+
+}
+
+#second_section button {
+    width: 200px;
+}
+
+#second_section .justify-content-between img {
+    width: 80%;
+}
+
+.b-border {
+}
+
+/* Third Section */
+#third_section {
+    width: 100%;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    background-position: center;
+}
+
+/* Fourth Section */
+#fourth_section .col-lg-2 img {
+    width: 90%;
+    margin: 10px 0;
+    border-radius: 13px;
+}
+
+#fourth_section .container-fluid {
+    background-color: #1f1f1f;
+}
+
+/* Fifth Section */
+#fifth_section button {
+    width: 150px;
+}
+
+/* Sixth Section */
+#sixth_section .container-fluid {
+    background-color: #bebcbb;
+}
+
+.ps-logo {
+    width: 40%;
+}
+
+#sixth_section button, #eighth_section button {
+    width: 200px;
+}
+
+.monthly_games {
+    width: 100%;
+}
+
+/* Seventh Section */
+#seventh_section img {
+    width: 80%;
+}
+
+/* Eighth Section */
+#eighth_section .container-fluid {
+    background-color: #161c3b;
+}
+
+/* Nineth Section */
+#nineth_section img{
+    width: 50%;
+    margin: 0 10px;
+}
+
+/* Tenth Section */
+#tenth_section .container-fluid {
+    background-color: #00439c;
+}
+
+.ps-footer {
+    width: 10%;
+}
+
+.globe {
+    width: 2.5%;
+}
+
+#tenth_section a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.sie-logo {
+    width: 20%;
+}
+
+/* Hover */
+.hover_border:hover {
+    border-radius: 13px;
+    border: 1px blue solid;  
+    padding: 3px; 
+}
+
+.hover_bottom_border:hover {
+    border-bottom: 2px #2d64e6 solid;
+}
+
+#nineth_section img:hover {
+    cursor: pointer;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    #second_section img {
+        margin-bottom: 10px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+        #seventh_section img {
+        margin-bottom: 10px;
+    }
+
+    #nineth_section img {
+        margin-bottom: 10px;
+    }
+
+    #tenth_section .text-center {
+        text-align: initial !important;
+        padding-top: 0 !important;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    #second_section img {
+        margin-bottom: 10px;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    #seventh_section img {
+        margin-bottom: 10px;
+    }
+  }
